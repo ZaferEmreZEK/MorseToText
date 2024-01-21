@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="tr">
+    <head>
+        <meta charset="utf-8">
+        <title>AnaSayfa</title>
+        <link rel="stylesheet" href="css\style.css"></link>
+        <script src="main.js"></script>
+    </head>
+
+    <body class="body">
+        <video autoplay loop muted><source src="css\video.mp4"></video>
+        <div class="header">
+            <img class="logo" src="css\logo.png" style="height: 8%; width: 8%;"></img>
+            <h1 style="color: aqua; height: fit-content; width: fit-content; align-items: center;">MORS ÇEVİRİCİ</h1>
+        </div>
+        <div class="hesapkismi">
+            <input class="input" type="text" placeholder="giriş yapınız" id="morsKodu"></input>
+            <button class="button" onclick="MorsToText()">Mors To Text</button>
+            <button class="button" onclick="Temizle()">Temizle</button>
+            <button class="button" onclick="TextToMors()">Text To Mors</button>
+            <p id="text" style="color: #eaeaea;"></p>
+        </div>
+        
+    
+
+    </body>
+</html>

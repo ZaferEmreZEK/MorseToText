@@ -1,0 +1,36 @@
+.header{
+    background-color: #383e42;
+    border-radius: 20px; /*kenarları yuvarlatma*/
+    padding: 2%; /*içeriğin kenarlardan uzaklığı*/
+    text-align:left;
+    display: flex;
+    margin-bottom: 15px;
+    z-index: 1;
+    justify-content: space-evenly;
+}
+
+
+.hesapkismi{
+    background-color: #5e98a5;
+    border-radius: 20px;
+    padding: 2%;
+    text-align: center;
+}
+
+
+
+video{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: -1;
+}
+
+.p{
+    background-color: rgb(160, 210, 227);
+}
